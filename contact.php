@@ -17,25 +17,19 @@
     
     <section>
         
-         <article>
+         <article class="contactarticle">
              
                 
-                <a  
-                        
-                    href="https://www.facebook.com/developont/" target="_blank"> 
-                    <img class="contact" src="img/facebook.png" alt="facebook">
-                    
+                <a class="liencontact" href="https://www.facebook.com/developont/" target="_blank"> 
+                    <img class="contact1" src="img/facebook.png" alt="facebook">
                 </a> 
              
-                <a 
-                     
-                   href="https://twitter.com/developont" target="_blank">
-                   <img class="contact" src="img/twitter.png" alt="twitter"> 
-                    
+                <a class="liencontact" href="https://twitter.com/developont" target="_blank">
+                   <img class="contact2" src="img/twitter.png" alt="twitter"> 
                 </a>
             
-             <a  href="mailto:developont@gmail.com"
-               target="_blank"> <img class="contact" src="img/mail.jpg" alt="icone mail"> 
+             <a class="liencontact" href="mailto:developont@gmail.com"
+               target="_blank"> <img class="contact3" src="img/mail.jpg" alt="icone mail"> 
              </a>
              
         </article>
@@ -47,7 +41,7 @@
      
     
     <Footer>
-        <?php include ('copyright.html'); ?>
+        <?php include ('copyright.php'); ?>
     </Footer>
 
     

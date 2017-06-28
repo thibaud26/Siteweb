@@ -45,12 +45,12 @@
         
                 <p>Pour la première fois en Isère, mais aussi la première fois dans un petit village authentique adossé au Vercors, Simplon.co propose une formation en développement web, en PHP, gratuite et intensive, de 7 mois à partir du mois d’avril 2017.</p>
                 Mené dans une démarche d’innovation sociale, ce projet constitue un double défi :
-                    <ul>
+            <ul>
                 <li> économique : participer à l’endiguement du chômage en répondant aux besoins de recrutement des entreprises du numérique engagées dans cette démarche citoyenne,</li>
                 <li> social : en agissant sur l’emploi et la qualification de publics marginalisés sélectionnés uniquement sur la base de critères sociaux et de leur motivation, et non selon les diplômes.</li>
             </ul>
                     
-    </article>
+        </article>
         
     </section>
     
@@ -68,7 +68,7 @@
     <footer>
         
         
-        <?php include ('copyright.html'); ?>
+        <?php include ('copyright.php'); ?>
        
     </footer>
 

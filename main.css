@@ -15,7 +15,6 @@ html {
 }
 
 
-
 body {
     background: rgb(227, 240, 229);
     box-shadow: 0px 10px 20px darkslategray;
@@ -31,8 +30,8 @@ body {
     padding-top: 1%;
 }
 
+
 header {
-    
     text-align: center;
     background-color: #9ec8b6;
     border: 1px solid black;
@@ -43,24 +42,25 @@ header {
     
 }
 
+
 a:link {
-    
     text-decoration: none;
 }
+
+
 h1 {
-    color: black;
-    font-weight: 600;
-    line-height: 2;
-    font-size: 350%;
-    border-style: ridge;
     border-color: darkred;
-    text-align: center;
-    text-decoration: underline;
+    border-radius: 20px;
+    border-style: ridge;
+    box-shadow: 4px 4px 4px 2px darkslategray;
+    color: black;
+    font-size: 350%;
     font-style: italic;
     font-weight: bold;
-    border-radius: 20px;
-    box-shadow: 20px 0 50px 0 darkslategray;
-    text-shadow: 5px 5px 5px black;
+    line-height: 2;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px brown;
 }
 
 
@@ -81,22 +81,38 @@ h2 {
 
 
 a {
-    
     color: black;
     /* font-style: italic; */
     font-weight: bold;
     /* font-family: monospace; */
-    
-}
+    }
 
 
-.contact{
+
+.contactarticle {
+    display: flex;
+    flex-direction: column;
+    width:0;
+
     
-    
-    height: 100px;
-    width: 250px;
-    display:inline-block
 }
+    
+.liencontact {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.liencontact:hover, .liencontact:focus, .liencontact:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
 
 
 .navigation {
@@ -134,14 +150,13 @@ article {
 
 
 footer{
-        
-    
     height: 100px;
     width: 1301px;
     position: fixed;
     bottom: 0;
-    background-color: black;
+    background-color: #91b589;
     text-align: center;
+    max-width: 100%;
     /*border-color: darkslategray;
     border-style: outset;
     border-width: thick;
@@ -156,11 +171,7 @@ footer{
 }
 
 
-
-
-
-
-.hvr-shutter-in-horizontal {
+.hvr-shutter-in-horizontal { /* DEBUT du css pour le menu animé de la barre de navigation */
       display: inline-block;
       vertical-align: middle;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -175,6 +186,8 @@ footer{
       margin-bottom: 30px;
       margin-top: 15px;
 }
+
+
 .hvr-shutter-in-horizontal:before {
       content: "";
       position: absolute;
@@ -195,25 +208,44 @@ footer{
       -webkit-transition-timing-function: ease-out;
       transition-timing-function: ease-out;
 }
-.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
+
+
+.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active 
+
+
+{
       color: white;
 }
-.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
-      -webkit-transform: scaleX(0);
-      transform: scaleX(0);
-}
 
+
+.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before 
+
+
+{     -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+} /* FIN du css pour le menu animé de la barre de navigation */
 
 
 .mail {
-        width: 80px;
+    width: 80px;
     vertical-align: middle;
 }
 
 
 .simplon {
-        width: 200px;
-    vertical-align: middle;
+    display: flex;
+    margin:auto;
+    max-width: 1000px;
+    min-width: 300px;
+    
+}
+
+.sitesimplon {
+     display: flex;
+    height: 1000px;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
 }
 
 
@@ -225,11 +257,35 @@ footer{
 
 
 .copyright {
-    
-        margin-top: 37px;
-        margin-top: 37px;
+    margin-top: 22px;
     color: rgb(227, 240, 229);
     /* font-style: italic; */
     text-shadow: 0px 2px 6px black;
+}
 
+
+.imageDAB {
+    max-width: 100%;
+    min-width: 300px;
+    position: relative;
+    width: 60em;
+}
+
+
+.phpheure {
+    display: flex;
+    text-shadow: 1px 2px 2px black;
+    color: white;
+    font-size: 65%;
+    margin-top: -12px;
+}
+
+
+.phpcompteur {
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 65%;
+    margin-top: -30px;
+    text-shadow: 1px 2px 2px black;
 }

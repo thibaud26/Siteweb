@@ -37,6 +37,12 @@ Notre mission est également de proposer des profils de poste adaptés aux entre
             <p> Cette formation entre dans un double dispositif : le contrat d'aide au retour à l'emploi durable (Cared), financé par la Région et POEC : préparation opérationnelle à l'emploi collectif financée par OPCALIA. Elle sera encadrée par les bénévoles de l'EPN, deux formateurs, une administratrice et une chargée des relations entreprise, tous Pontois."</p>
             
              <p><em>Article Publié le 03 mai 2017 à 17h32</em></p>
+             
+             
+             
+             <a href="https://fr-fr.facebook.com/developont/" target="_blank"><img class="imageDAB" src="img/develo'pontDAB.jpg" alt="image develo'pont">
+             DEVELO'PONT, promo 2017 de Develo'pont </a>
+             
             
         </article>
         
@@ -51,7 +57,7 @@ Notre mission est également de proposer des profils de poste adaptés aux entre
     
     <Footer>
              
-             <?php include ('copyright.html'); ?>
+             <?php include ('copyright.php'); ?>
         
     </Footer>
 
